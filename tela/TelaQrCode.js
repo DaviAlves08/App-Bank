@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View,Image, TouchableOpacity} from 'react-native'; 
+import { StyleSheet, Text, View,Image, TouchableOpacity, StatusBar} from 'react-native'; 
 
 export function TelaQrCode({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <View style={styles.row}>
           <TouchableOpacity onPress={() => navigation.navigate('TelaOpcoes')}>
             <Image source={require('../assets/menu.png')} style={styles.imgmenu} />
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    marginTop: 60,
+    marginTop: 20,
   },
   col: {
     flex: 1,

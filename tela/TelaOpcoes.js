@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View,Image, TouchableOpacity} from 'react-native'; 
+import { StyleSheet, Text, View,Image, TouchableOpacity, StatusBar} from 'react-native'; 
 
 export function TelaOpcoes({navigation}) {
   return (
     <View style={styles.container}>
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <View style={styles.row}>
           <Image source={require('../assets/menu.png')} style={styles.imgmenu} />
           <Text style={styles.titulo}>PAYMENT</Text>
@@ -32,7 +33,7 @@ export function TelaOpcoes({navigation}) {
           <Text style={styles.iconnames}>Electricity</Text>
         </View>
         <View>
-          <Image source={require('../assets/fire.png')} style={styles.icons} />
+          <Image source={require('../assets/fire.jpg')} style={styles.icons} />
           <Text style={styles.iconnames}>Gas</Text>
         </View>
       </View>
@@ -42,7 +43,7 @@ export function TelaOpcoes({navigation}) {
           <Text style={styles.iconnames}>Shopping</Text>
         </View>
         <View>
-          <Image source={require('../assets/phone.png')} style={styles.icons} />
+          <Image source={require('../assets/phone.jpg')} style={styles.icons} />
           <Text style={styles.iconnames}>Phone</Text>
         </View>
         <View>
@@ -120,7 +121,7 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    marginTop: 20,
+    marginTop: -15,
     justifyContent: 'space-between',
   },
   rowbalance: {

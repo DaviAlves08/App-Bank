@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ProjetoBanco",
+    "name": "AppBank",
     "slug": "ProjetoBanco",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.davidal.ProjetoBanco"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3312b9da-9be1-4007-b400-7d5e99843841"
+      }
     }
   }
 }

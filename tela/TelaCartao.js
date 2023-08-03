@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView} from 'react-native'; 
+import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView, StatusBar} from 'react-native'; 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export function TelaCartao({ navigation }) {
@@ -7,6 +7,7 @@ export function TelaCartao({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <View style={styles.row}>
           <TouchableOpacity onPress={() => navigation.navigate('TelaOpcoes')}>
             <Image source={require('../assets/menu.png')} style={styles.imgmenu}/>
@@ -83,7 +84,8 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    marginTop: 42
+    marginTop: 15,
+    paddingBottom: 7
   },
   imgmenu: {
     height: 39,

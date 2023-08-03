@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image, TouchableOpacity, ScrollView, StatusBar} from 'react-native';
 
 export function Home({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <Text style={styles.titulo}>WELCOME!</Text>
         <Image source={require('../assets/bank.png')} style={styles.logobank} />
       </View>
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#164478',
     width: 400,
-    height: 540,
+    height: 540, 
     marginBottom: 20,
   },
   logobank: {

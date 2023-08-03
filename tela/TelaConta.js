@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView} from 'react-native'; 
+import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView, StatusBar} from 'react-native'; 
 
 export function TelaConta({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <TouchableOpacity onPress={() => navigation.navigate('TelaOpcoes')}>
           <Image source={require('../assets/menu.png')} style={styles.imgmenu} />
         </TouchableOpacity>
@@ -59,7 +60,8 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       backgroundColor: '#193E75',
       width: '100%',
-      paddingTop: 40,
+      paddingTop: 30,
+      paddingBottom: 10,
       marginBottom: 15,
       flexDirection: 'row',
       justifyContent: 'space-between',

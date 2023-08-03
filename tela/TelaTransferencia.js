@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Button, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, Image, TouchableOpacity, ScrollView, StatusBar} from 'react-native';
 
 export function TelaTransferencia({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
       <View style={styles.background}>
+        <StatusBar backgroundColor="#193E75" />
         <TouchableOpacity onPress={() => navigation.navigate('TelaOpcoes')}>
           <Image source={require('../assets/menu.png')} style={styles.imgmenu} />
         </TouchableOpacity>
@@ -58,8 +59,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#193E75',
     width: '100%',
-    height: 125,
-    paddingTop: 55,
     flexDirection: 'row',
     justifyContent: 'space-between',
   },

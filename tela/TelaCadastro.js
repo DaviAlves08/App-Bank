@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView } from 'react-native';
+import { StyleSheet, Text, View,TextInput,Image, TouchableOpacity,ScrollView, StatusBar} from 'react-native';
 import CheckBox from 'expo-checkbox';
 
 export function TelaCadastro({ navigation }) {
@@ -8,6 +8,7 @@ export function TelaCadastro({ navigation }) {
   return (
     <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
       <View style={styles.background}>
+      <StatusBar backgroundColor="#193E75" />
         <Image source={require('../assets/cadastro.png')} style={styles.imgcadastro} />
         <Text style={styles.titulo}>Connect to your bank account</Text>
       </View>
