@@ -1,5 +1,6 @@
+<h1>App-Bank</h1>
 
-<h1 align=center>App-Bank</h1>
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DaviAlves08/App-Bank/blob/main/LICENSE) 
 
 <h2>Sobre o Projeto</h2> 
 <p>App Bank é um projeto visual que simula as telas de um aplicativo bancário, desenvolvido para praticar conceitos de design e layout com o React-Native. Ele apresenta uma série de telas representativas de um aplicativo de banco, explorando diferentes aspectos visuais e de usabilidade.</p>
