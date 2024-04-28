@@ -12,16 +12,25 @@
 
 <h2>Imagens da Aplicação</h2>
 
-<div>
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/78376bbf-3fde-4665-9e54-e7d3db1a26c5" alt="Image Bank (6)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/19a81c78-f0b1-4493-874f-02cc6dcb8555" alt="Image Bank (5)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/ff07d977-7508-448a-91a7-56d94eb8d8ae" alt="Image Bank (8)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/8ca37e17-da63-4e8d-9ba7-d7e1cb7c1388" alt="Image Bank (4)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/02091ef0-e4df-4618-b605-385751e2f52c" alt="Image Bank (7)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/4c4ab1a2-fbf5-417f-82d9-41f29e26a889" alt="Image Bank (9)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/83c1dfe8-a2bb-4dac-b38a-524547b5842b" alt="Image Bank (2)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/d82baef1-0e2a-43f2-aed2-385f1c50a1b6" alt="Image Bank (3)" style="width: 300px;">
-  <img src="https://github.com/DaviAlves08/assets/assets/139929297/6f86a4fd-eaee-47dc-b283-76ad85616631" alt="Image Bank (1)" style="width: 300px;">
+<div style="display: flex; flex-direction: row; width: 200px;>
+  
+  ![Image Bank (6)](https://github.com/DaviAlves08/assets/assets/139929297/78376bbf-3fde-4665-9e54-e7d3db1a26c5)
+  
+  ![Image Bank (5)](https://github.com/DaviAlves08/assets/assets/139929297/19a81c78-f0b1-4493-874f-02cc6dcb8555)
+  
+  ![Image Bank (8)](https://github.com/DaviAlves08/assets/assets/139929297/ff07d977-7508-448a-91a7-56d94eb8d8ae)
+  
+  ![Image Bank (4)](https://github.com/DaviAlves08/assets/assets/139929297/8ca37e17-da63-4e8d-9ba7-d7e1cb7c1388)
+  
+  ![Image Bank (7)](https://github.com/DaviAlves08/assets/assets/139929297/02091ef0-e4df-4618-b605-385751e2f52c)
+  
+  ![Image Bank (9)](https://github.com/DaviAlves08/assets/assets/139929297/4c4ab1a2-fbf5-417f-82d9-41f29e26a889)
+  
+  ![Image Bank (2)](https://github.com/DaviAlves08/assets/assets/139929297/83c1dfe8-a2bb-4dac-b38a-524547b5842b)
+  
+  ![Image Bank (3)](https://github.com/DaviAlves08/assets/assets/139929297/d82baef1-0e2a-43f2-aed2-385f1c50a1b6)
+  
+  ![Image Bank (1)](https://github.com/DaviAlves08/assets/assets/139929297/6f86a4fd-eaee-47dc-b283-76ad85616631)
 </div>
 
 <h2>Como Rodar a Aplicação</h2>
