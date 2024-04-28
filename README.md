@@ -13,9 +13,9 @@
 <h2>Imagens da Aplicação</h2>
 
 <div>
-  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/af1521ed-b904-4b8e-9395-6ec49fb0768a" alt="Image Bank (6)" style="width: 280px;">
-  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/f368570a-9eff-4bd2-9220-91fbc1d53e3b" alt="Image Bank (5)" style="width: 280px;">
-  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/7da670df-3393-455b-8a5b-1b7aed63cd0f" alt="Image Bank (8)" style="width: 280px;">
+  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/af1521ed-b904-4b8e-9395-6ec49fb0768a" alt="Image Bank (6)" style="width: 275px;">
+  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/f368570a-9eff-4bd2-9220-91fbc1d53e3b" alt="Image Bank (5)" style="width: 275px;">
+  <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/7da670df-3393-455b-8a5b-1b7aed63cd0f" alt="Image Bank (8)" style="width: 275px;">
   <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/7b12d752-cfdd-43a4-ac0d-72f61911ead9" alt="Image Bank (4)" style="width: 280px;">
   <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/5d4142c1-eaa4-4258-a256-3c5d756b6bcc" alt="Image Bank (7)" style="width: 280px;">
   <img src="https://github.com/DaviAlves08/App-Bank/assets/139929297/f6a07311-083c-4492-b25d-14c565bf99a2" alt="Image Bank (9)" style="width: 280px;">
